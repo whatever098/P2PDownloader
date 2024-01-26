@@ -1,0 +1,17 @@
+.vscode/
+.idea/
+build/
+__pycache__
+venv/
+
+docs/_*
+docs/conf.py
+docs/index.rst
+docs/make.bat
+docs/Makefile
+docs/torrent.rst
+build/*
+source/*
+make.bat
+Makefile
+*.rst

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>m3u8</class>
+ <widget class="QWidget" name="m3u8">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>357</width>
+    <height>324</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>m3u8</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>resource/logo.ico</normaloff>resource/logo.ico</iconset>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="11" column="0">
+    <widget class="QPushButton" name="pushButton">
+     <property name="text">
+      <string>确认下载</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="0">
+    <widget class="QLineEdit" name="lineEdit_name">
+     <property name="baseSize">
+      <size>
+       <width>0</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="placeholderText">
+      <string>请输入保存的文件名</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLineEdit" name="lineEdit_m3u8">
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+     <property name="placeholderText">
+      <string>请输入m3u8网址</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="0">
+    <widget class="QPushButton" name="pushButton_path">
+     <property name="text">
+      <string>选择下载路径</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="label_3">
+     <property name="text">
+      <string>下载路径：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="label_2">
+     <property name="text">
+      <string>m3u8请求URL：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="0">
+    <widget class="QLabel" name="label_4">
+     <property name="text">
+      <string>保存文件名：</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="label">
+     <property name="font">
+      <font>
+       <family>华文楷体</family>
+       <pointsize>28</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>m3u8下载器</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

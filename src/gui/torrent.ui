@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>torrent</class>
+ <widget class="QWidget" name="torrent">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>537</width>
+    <height>413</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>torrent文件选择</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>resource/logo.ico</normaloff>resource/logo.ico</iconset>
+  </property>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>40</y>
+     <width>483</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="font">
+       <font>
+        <family>华文楷体</family>
+        <pointsize>36</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Torrent文件选择器</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+      <property name="indent">
+       <number>-1</number>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="pushButton">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>280</y>
+     <width>399</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>选择.torrent文件</string>
+   </property>
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
