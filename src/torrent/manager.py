@@ -8,15 +8,6 @@ from src.torrent.torrent import Torrent
 from src.torrent.piece import *
 from src.torrent.message import REQUEST_SIZE
 
-"""
-    @filename manager.py
-    @author 郑卯杨
-    @date 2023/10/10
-    @version 1.0
-
-    该模块实现了PieceManager,负责管理向Peer请求Piece对应的数据,接受数据,写回数据
-"""
-
 
 class PendingRequest:
     """

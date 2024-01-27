@@ -12,17 +12,6 @@ from typing import Optional
 from src.torrent import bencoding
 from src.torrent.torrent import Torrent
 
-"""
-    @filename tracker.py
-    @author 郑卯杨
-    @date 2023/10/10
-    @version 1.0
-
-    该模块实现了和Tracker服务器的通信,目前支持http协议和udp协议
-    实现了封装类Tracker,和Tracker服务器通信
-    实现了封装类TrackerResponse,通过peers属性访问peers的(ip,port)
-"""
-
 
 def _decode_port(port):
     """

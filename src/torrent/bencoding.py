@@ -1,15 +1,6 @@
 from collections import OrderedDict
 from typing import Union
 
-"""
-    @filename bencoding.py
-    @author 郑卯杨
-    @date 2023/10/10
-    @version 1.0
-    
-    该模块实现了bencoding格式的编码和解码
-    包含Decode解码器和Encode编码器
-"""
 
 # Tokens 用来分词的标志
 

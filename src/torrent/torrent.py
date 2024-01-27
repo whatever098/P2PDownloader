@@ -4,16 +4,6 @@ from typing import List
 
 from src.torrent import bencoding
 
-"""
-    @filename torrent.py
-    @author 郑卯杨
-    @date 2023/10/10
-    @version 1.0
-    
-    该模块对解析bencoding格式二进制文件后生成的OrderedDict进行了封装
-    实现了封装类Torrent,通过torrent的属性访问
-"""
-
 
 class Torrent:
     def __init__(self, filepath: str):

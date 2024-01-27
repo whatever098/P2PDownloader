@@ -10,15 +10,6 @@ from src.torrent.manager import PieceManager
 from src.torrent.torrent import Torrent
 from src.torrent.tracker import Tracker
 
-"""
-    @filename client.py
-    @author 郑卯杨
-    @date 2023/10/10
-    @version 1.0
-    
-    该模块集成了所有模块,真正地开始下载
-    封装了TorrentClient类,使用start()开始下载,stop()取消下载，pause()暂停下载，restart()继续下载
-"""
 
 MAX_PEER_CONNECTIONS = 100  # 最大peers连接数
 

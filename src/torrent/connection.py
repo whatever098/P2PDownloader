@@ -10,17 +10,6 @@ from src.torrent.message import *
 from asyncio import Queue, StreamReader, StreamWriter, CancelledError
 from typing import Optional, Callable
 
-"""
-    @filename connection.py
-    @author 郑卯杨
-    @date 2023/10/10
-    @version 1.0
-
-    该模块负责和结点的通信
-    实现了和Peer通信的最小单元Connection,能够不断地获取等待中的Peer并与之通信
-    实现了异步流迭代器PeerStreamIterator,方便解析数据
-    实现了自定义异常ProtocolError
-"""
 
 
 class PeerStreamIterator:

@@ -2,19 +2,6 @@ import logging
 import time
 from hashlib import sha1
 from typing import Optional
-
-"""
-    @filename piece.py
-    @author 郑卯杨
-    @date 2023/10/10
-    @version 1.0
-    
-    该模块定义了与Peer通信时用到的数据结构Block和Piece
-    Block: 向Peer请求数据的最小单位
-    Piece: Torrent文件被划分的最小单位
-"""
-
-
 class Block:
     """
     Block是Piece的一部分,每次向Peer请求的是Block大小的数据
